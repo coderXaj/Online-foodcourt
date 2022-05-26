@@ -1,0 +1,97 @@
+.main4{
+    height: 100%;
+    margin-top: 2%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.main4 .emptycart{
+    height: 80vh;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main4 .order{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(139, 139, 233);
+    font-weight: 800;
+}
+.container4{
+    height: 30vh;
+    border-bottom: 2px solid rgb(139, 139, 233);
+    border-left: 2px solid rgb(139, 139, 233);
+    border-right: 2px solid rgb(139, 139, 233);
+    padding: 8px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main4 .container4 img{
+    width: 10%;
+}
+.main4 .container4 .btn1{
+    width: 110px;
+    text-decoration: none;
+    color: blanchedalmond;
+    border-radius: 15px;
+    padding: 5px 0;
+    background-color: rgb(139, 139, 233);
+    border: 1px solid black;
+    font-family: 'montserrat';
+    cursor: pointer;
+}
+.main4 .container4 .btn1:hover{
+    color: black;
+    border: 1px solid white;
+}
+.main4 .container4 .contain2 .btn2{
+    width: 30px;
+    text-decoration: none;
+    color: blanchedalmond;
+    border-radius: 50%;
+    padding: 1px 0;
+    margin: 0 5px;
+    background-color: rgb(139, 139, 233);
+    border: 1px solid black;
+    font-family: 'montserrat';
+    cursor: pointer;
+}
+.main4 .container4 .contain2 .btn2:hover{
+    color: black;
+    border: 1px solid white;
+}
+.main4 .total-main{
+    text-align: right;
+    background-color: rgb(139, 139, 233);
+    margin-bottom: 2%;
+}
+.main4 .total-main .total{
+    margin-right: 5px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+.main4 .total-main .btn3{
+    width: 110px;
+    text-decoration: none;
+    font-size: medium;
+    color: red;
+    border-radius: 15px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 5px 0;
+    background-color: yellow;
+    border: 1px solid blue;
+    font-family: 'montserrat';
+    cursor: pointer;
+}
+.main4 .total-main .btn3:hover{
+    color: black;
+    border: 1px solid rgb(139, 139, 233);
+}
+@media(max-width: 800px){
+    
+}

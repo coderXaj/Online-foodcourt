@@ -1,0 +1,83 @@
+.hi{
+  margin: 50px 30px;
+  padding: 10px 20px;
+  border: 1px solid black;
+}
+
+h2{
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.hi2{
+  margin: 0 5px;
+  font-size: xx-large;
+  border: none;
+  cursor: pointer;
+}
+
+.hi2:hover{
+  font-size: x-large;
+}
+
+.at{
+  display: flex;
+  justify-content: space-around;
+}
+
+.hi3{
+  margin: 5px 30px;
+  padding: 5px 5px;
+  font-size: medium;
+  background-color: black;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.hi3:hover{
+  color: black;
+  background-color: white;
+
+}
+
+.hi4{
+  margin: 50px 0;
+}
+
+.ip{
+  padding: 5px 5px;
+  margin: 5px 0;
+  color: blue;
+}
+
+/* todolist css */
+
+.hi5{
+  border: 1px solid black;
+  margin: 5px 37%;
+}
+
+.hi6{
+  margin: 5px 6px;
+  padding: 5px 5px;
+  font-size: medium;
+  border-radius: 25px;
+  background-color: black;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.hi6:hover{
+  color: black;
+  background-color: white;
+
+}
+
+.hi7{
+  width: 50%;
+  height: 50%;
+  margin: 10px 0;
+  padding-left: 13%;
+  font-size: x-large;
+  display: block;
+}

@@ -1,0 +1,259 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100%;
+    height: 10vh;
+    background-color: rgba(22, 96, 99, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+nav .main{
+    width: 100%;
+    margin-left: 3.5%;
+    color: blanchedalmond;
+}
+nav .menu{
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+nav .menu a{
+    text-decoration: none;
+    color: blanchedalmond;
+    transition: 0.3s;
+}
+nav .menu2{
+    position: relative;
+    margin-right: 3.5%;
+}
+nav .menu2 .logo2{
+    color: blanchedalmond;
+    font-size: large;
+}
+nav .menu2 span{
+    position:absolute;
+    top:-9px;
+    left: 14px;
+    font-size: 10px;
+    color: red;
+    background-color: black;
+    border-radius: 50%;
+    padding: 3px 5px;
+    z-index: 0;
+}
+nav .menubar,
+nav .close{
+    border: none;
+    display: none;
+    cursor: pointer;
+}
+.menu a:hover{
+    color: black;
+} 
+.container{
+    margin-top: 90px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: solid 1px white;
+    background-color: rgb(250, 242, 242);
+}
+
+.container:hover{
+    border: 0.1px solid black;
+}
+
+.contain{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+
+.container img{
+    width: 250px;
+    height: 250px;
+}
+
+.btn{
+    width: 100px;
+    text-decoration: none;
+    color: blanchedalmond;
+    border-radius: 15px;
+    padding: 3px 0;
+    margin-right: 2px;
+    background-color: rgb(139, 139, 233);
+    border: 1px solid black;
+    font-family: 'montserrat';
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: black;
+    border: 1px solid white;
+}
+
+.spam-cont{
+    font-size: 30px;
+    font-style: italic;
+    color: rgb(236, 95, 118);
+    text-transform: uppercase;
+    margin-left: 3px;
+}
+.spam-price{
+    font-size: large;
+    text-transform: uppercase;
+    margin-left: 3px;
+}
+.contain p{
+    text-decoration-line: none;
+    cursor: pointer;
+}
+p:hover{
+    color: dimgray;
+    font-size: 16px;
+    text-decoration-line: underline;
+}
+.containflex{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.main-container{
+    display: flex;
+}
+
+.main2{
+    background-color: rgba(235, 226, 226, 0.87);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 3%;
+}
+.container2{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: rgba(22, 96, 99, 0.5);
+    padding: 30px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #0e0b0b;
+	text-decoration: none;
+	font-weight: 300;
+	color: #050505;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 800px){
+    nav .main{
+        font-size: small;
+    }
+    nav .menu{
+        position: fixed;
+        height: 100vh;
+        padding: 5%;
+        background-color: rgba(22, 96, 99, 10);
+        display: flex;
+        flex-direction: column;
+        z-index: 99;
+        top:0;
+        opacity: 0.97;
+        transition: 0.5s linear;
+    }
+    nav .menubar,
+    nav .close{
+        display: block;
+        font-size: larger;
+        padding: 1px 3px;
+        color: #ffffff;
+        background-color: rgba(22, 96, 99, 0.1);
+        margin: 0 5px;
+        cursor: pointer;
+    }
+    nav .close{
+        position: absolute;
+        top: 20px;
+        right: 50px;
+    }
+
+    .container
+    .container2{
+        text-align: center;
+    }
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}

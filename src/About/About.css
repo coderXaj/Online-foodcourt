@@ -1,0 +1,17 @@
+.main5{
+    height: 100vh;
+    padding-top: 5%;
+}
+.main5 h1{
+    text-align: center;
+}
+.main5 .lorem{
+    line-height: 15%;
+    font-style: italic;
+}
+@media(max-width: 800px){
+    .main5{
+      height: auto;
+      padding-top: 12%;
+  }
+  }

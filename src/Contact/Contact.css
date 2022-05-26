@@ -1,0 +1,46 @@
+.main6{
+    width: 100%;
+    align-items: center;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+.main6 .conhead{
+    border: 1px solid black;
+    width: 70%;
+    height: 90%;
+}
+.conhead h1{
+    text-align: center;
+    padding-top: 10px;
+}
+.conhead h2{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0 5px;
+}
+.conhead span{
+    font-size: 20px;
+    color: burlywood;
+    margin: 10px 5px;
+}
+@media(max-width: 800px){
+    .main6{
+        height: auto;
+        padding-top: 4%;
+        padding-bottom: 4%;
+    }
+    .main6 .conhead{
+        width: 60%;
+    }
+}
+@media(max-width: 500px){
+    .main6{
+        height: auto;
+        padding-top: 6%;
+        padding-bottom: 6%;
+    }
+    .main6 .conhead{
+        width: 80%;
+    }
+}
