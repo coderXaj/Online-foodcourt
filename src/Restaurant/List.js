@@ -5,7 +5,6 @@ import { useSelector, useDispatch } from 'react-redux';
 
 
 function List() {
-    const initial = JSON.parse(localStorage.getItem('Data'))
     const cart = useSelector((state) => state);
     console.log(cart);
     const dispatch = useDispatch();
